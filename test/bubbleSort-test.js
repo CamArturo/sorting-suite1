@@ -1,8 +1,11 @@
 const chai = require('chai');
 const assert = chai.assert;
 const expect = chai.expect;
-import bubbleSort from './bubbleSort';
+// import bubbleSort from '../lib/bubbleSort';
+const bubbleSort = require ('../lib/bubbleSort.js');
 // import randomArray from './randomArray';
+const randomArray = require ('../lib/randomArray.js');
+
 
 describe('Bubble Sort Testing', function () {
   it('should return an array of the same length', function () {
